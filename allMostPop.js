@@ -4,7 +4,7 @@ CN.site.allure.mostPop = {
 
                 getPopData : function(){
                     var apiKey      = 'allure.com',
-                        apiSecret   = 'al2KXhnbjQ5vFlARRyXnz307byr3VJOhHnAnLX5q3qI',
+                        apiSecret   = '',
                         section     = jQuery.parseJSON(jQuery('meta[name="parsely-page"]').attr('content').replace(/\\"/g, '"')).section.replace(' ', '+'),
                         inLast      = '72h',
                         limit       = (this.isIndex)? '30' : '25',
